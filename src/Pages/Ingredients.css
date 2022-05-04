@@ -1,0 +1,33 @@
+@media screen and ( max-width : 360px ) and ( max-height : 640px ) {
+
+  .explore__ingredient__container {
+    height: 100vh;
+    margin-top: 1.5em;
+    width: 100vw;
+  }
+
+  .explore__ingredient__card__container {
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .explore__ingredient__ingredients {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .explore__ingredient__card__text {
+    color: var(--carmesim);
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+}

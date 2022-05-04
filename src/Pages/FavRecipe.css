@@ -1,0 +1,32 @@
+.recipe-card-conteiner {
+  margin: 0 40px;
+}
+
+.filter-conteiner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.filter-conteiner button {
+  background-color: rgb(200 200 200);
+  border: 1px solid black;
+  margin: 5px 0;
+  width: 100px;
+}
+
+.fav-list-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.fav-btn-conteiner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+  width: 150px;
+}
+
+img {
+  border-radius: 15px;
+  width: 160px;
+}

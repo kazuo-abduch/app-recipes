@@ -1,0 +1,35 @@
+.buttons__container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.button__item {
+  background-color: var(--carmesim);
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  flex: 1 1 25%;
+  height: 10%;
+  margin: 10px;
+  max-height: 10%;
+  text-align: center;
+}
+
+@media screen and ( max-width : 360px ) {
+
+  .buttons__container {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-right: 15px;
+    width: 80vw;
+  }
+
+  .button__item {
+    max-width: 100%;
+  }
+}

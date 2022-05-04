@@ -1,0 +1,26 @@
+@media screen and ( max-width : 360px ) and (  max-height : 640px ) {
+
+  .profile__container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .content {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+  }
+
+  .profile__btn {
+    background-color: var(--carmesim);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+    width: 70%;
+  }
+
+}

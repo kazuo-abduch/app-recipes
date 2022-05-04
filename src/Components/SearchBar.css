@@ -1,0 +1,14 @@
+.search__container {
+  margin-top: 2.5em;
+  max-width: 90%;
+}
+
+.radio-button {
+  margin: 0.7em;
+}
+
+.search-button {
+  background-color: var(--carmesim);
+  border: none;
+  color: white;
+}

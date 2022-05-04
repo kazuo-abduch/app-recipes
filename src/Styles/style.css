@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: Nunito , sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.footer {
+  background-color: rgb(200, 200, 200);
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 360px;
+}
